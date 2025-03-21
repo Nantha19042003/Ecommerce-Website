@@ -7,6 +7,7 @@
        <title>NANTHA BURGERZ</title>
        <link rel="stylesheet" href="/style.css">
        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+        <script src="/javascript.js"></script>
        
 
 </head>
@@ -19,9 +20,9 @@
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
          </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <div class="collapse navbar-collapse"  style="margin-left: 230px;"  id="navbarSupportedContent">
            <ul class="navbar-nav mx-auto >
-             <li class="nav-item">
+             <li   class="nav-item">
                <a class="nav-link "  href="#Home">Home</a>
              </li>
              <li class="nav-item">
@@ -31,12 +32,20 @@
               <a class="nav-link" href="#Foods">Foods</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#Contact">Contact</a>
             </li>
              
           
            </ul>
-         <button class="btn">Sign In</button>
+         <button class="sign" style="margin-left: 256px;;">SignIn</button> 
+         <ul>
+         <div>
+              <img src="/images/pngwing.com (15).png" style="width:30%;" alt="">
+              </div>
+              <div>
+         <span id="cart-count" style="color: #fffdfd;">Cart: 0</span>
+         </div>
+         </ul>
        </div>
      </nav>
 
@@ -47,7 +56,7 @@
               </p>
               <div class="input-group m-4">
                      <input type="text" class="form-control" placeholder="Email Address">
-                     <button class="btn-sign">Get Started</button>
+                     <button class="btn btn-sign">Get Started</button>
               </div>
         </section>
 
@@ -60,9 +69,8 @@
                                    <img src="/images/pngwing.com (2).png"class="img-fluid" alt="image">
                             </div>
                             <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-2 my-5">
-                                   <h1 style="font-weight: 800;font-size: 50px;color: aliceblue; ">About</h1>
-                                   <p style="color: #fffdfd;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatum debitis alias excepturi magni necessitatibus, unde vitae praesentium distinctio quos hic et minima minus sit, aspernatur reprehenderit rem quod quaerat ad? Debitis, voluptatem impedit? Dignissimos error, exercitationem libero quas harum a repellendus eligendi eveniet laboriosam esse blanditiis fugiat autem reiciendis, laudantium nemo corrupti aliquam odio eum nulla. Hic quidem officiis tempore delectus saepe nulla deserunt odit. Dicta quaerat minus, eligendi corporis ducimus fugit tempora voluptates assumenda adipisci doloremque blanditiis, dolorem illo neque quo veniam vel inventore voluptatum quos architecto? Exercitationem similique reiciendis eos sapiente saepe neque consectetur aperiam, dicta praesentium.</p>
-
+                                   <h1 style="font-weight: 800;font-size: 50px;color: aliceblue; ">ABOUT</h1>
+                                   <p style="color: #fffdfd;">Burgers and pizza, both beloved globally, offer distinct culinary experiences. Burgers, typically featuring a patty of ground meat between a bun, are known for their customizable toppings and quick preparation, while pizza, a flatbread topped with sauce, cheese, and various ingredients, boasts a wide array of flavors and textures .Burgers and pizza, both beloved globally, offer distinct culinary experiences. Burgers, typically featuring a patty of ground meat between a bun, are known for their customizable toppings and quick preparation, while pizza, a flatbread topped with sauce, cheese, and various ingredients, boasts a wide array of flavors and textures</p>
                             </div>
                      </div>
               </div>
@@ -81,10 +89,10 @@
 
                             <div class="card" >
                                    <img src="/images/pngwing.com (3).png" class="card-img-top" alt="...">
-                                   <div class="card-body">
-                                     <h5 class="card-title">Card title</h5>
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Full Chicken Roast</h5>
                                      
-                                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                                     <a href="#" class="btn btn-sign btn-add-to-cart ">Add to cart</a>
                                    </div>
                                  </div>   
                                  
@@ -93,21 +101,88 @@
 
                             <div class="card" >
                                    <img src="/images/pngwing.com (4).png" class="card-img-top" alt="...">
-                                   <div class="card-body">
-                                     <h5 class="card-title">Card title</h5>
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Premium Burger</h5>
                                      
-                                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
                                    </div>
                                  </div>   
                                  
                      </div><div class="col-lg-4 col-md-4 col-12">
 
                             <div class="card" >
-                                   <img src="/images/pngwing.com (5).png" class="card-img-top" alt="...">
-                                   <div class="card-body">
-                                     <h5 class="card-title">Card title</h5>
+                                   <img src="/images/pngwing.com (2).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Mega Burger Combo</h5>
                                      
-                                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
+                                   </div>
+                                 </div>   
+                                 
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-12">
+
+                            <div class="card" >
+                                   <img src="/images/pngwing.com (5).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Veg Sandwich</h5>
+                                     
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
+                                   </div>
+                                 </div>   
+                                 
+                     </div> <div class="col-lg-4 col-md-4 col-12">
+
+                            <div class="card" >
+                                   <img src="/images/pngwing.com (6).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Waffer</h5>
+                                     
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
+                                   </div>
+                                 </div>   
+                                 
+                     </div> <div class="col-lg-4 col-md-4 col-12">
+
+                            <div class="card" >
+                                   <img src="/images/pngwing.com (7).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Fruit Mix</h5>
+                                     
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
+                                   </div>
+                                 </div>   
+                                 
+                     </div> <div class="col-lg-4 col-md-4 col-12">
+
+                            <div class="card" >
+                                   <img src="/images/pngwing.com (14).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Strawberry Ice Mix</h5>
+                                     
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
+                                   </div>
+                                 </div>   
+                                 
+                     </div> <div class="col-lg-4 col-md-4 col-12">
+
+                            <div class="card" >
+                                   <img src="/images/pngwing.com (10).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">Chicken Roll</h5>
+                                     
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
+                                   </div>
+                                 </div>   
+                                 
+                     </div> <div class="col-lg-4 col-md-4 col-12">
+
+                            <div class="card" >
+                                   <img src="/images/pngwing.com (12).png" class="card-img-top" alt="...">
+                                   <div class="card-body text-center">
+                                     <h5 class="card-title">French Fries</h5>
+                                     
+                                     <a href="#" class="btn btn-sign btn-add-to-cart">Add to cart</a>
                                    </div>
                                  </div>   
                                  
@@ -122,12 +197,44 @@
          </section>
 
 
+         <!-- Contact -->
+
+         <section id="Contact">
+
+           <div class="container ">
+
+              <div class="row">
+                     <div class="col-lg-6 col-md-6 col-12">
+                           <img src="/images/1742558280778oqrut57s.webp" alt="" class="img-fluid"> 
+                     </div>
+                     <div class="col-lg-6 col-md-6 col-12">
+                            <h1 style="font-weight: 800;color: #fffdfd;">CONTACT US</h1>
+                            <form action="">
+                                   <input type="text" name="" id="" class="form-control" placeholder="Enter your name">
+                                   <input type="text" name="" id="" class="form-control"  placeholder="Enter your Email Id">
+                                   <textarea style="margin-left: 10px;" class="form-control" name="" id="" placeholder="Enter you message"></textarea>
+                                   <button style="margin-left: 20px; padding-top: 10px;" class="btn btn-sign">Send Message</button>
+                            </form>
+                     </div>
+              </div>
+           </div>
 
 
 
 
 
 
+         </section>
+
+
+<footer class="footer" >Designed By : <a href ="https://www.linkedin.com/in/nantha-kumar-r-17b59324a/
+
+       " target="_blank" rel="noopener noreferrer" style="text-decoration: none;">Nantha Kumar</a>    All Rights Reserved @2025</footer>
+
+
+       
+
+      
 
 
 

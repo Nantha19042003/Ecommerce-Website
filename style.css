@@ -55,6 +55,73 @@ section {
        align-items: center;
 }
 
-#home{
-       background: url(burgers-lbm.jpg);
+#Home {
+    background:linear-gradient( rgba(0,0,0,.3),  rgba(0,0,0,.8)),url(/images/burgers-lbm.jpg); 
+    background-size: cover;
+    background-position: center;  
+    flex-direction: column;
+}
+
+#Home h1{
+       font-size: 1oopx;
+       color: aliceblue;
+       letter-spacing: 3px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: bolder;
+       text-shadow: 0px 1px 0px rgb(30, 230, 26),0px 2px 0px rgb(11, 227, 29),0px 2px 0px rgb(9, 215, 60),0px 2px 0px rgb(19, 251, 46),0px 2px 0px rgb(6, 210, 6);
+}
+#Home p{
+       font-size: 28px;
+       color: white;
+
+}
+
+#Home .input-group{
+       width: 40%;
+       height: 45px;
+       
+}
+#Home button{
+       background-color: green;
+       color: white !important;
+           
+       box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+       
+}
+
+#About {
+       background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+  
+#About p{
+       color: #fcfcfc;
+}
+
+#Foods{
+       background-color: rgb(87, 101, 97);
+}
+
+#Foods h1{
+       font-size: 45px;
+       letter-spacing: 2px;
+       font-weight: 600;
+}
+
+#Foods img {
+       width: 200px;
+       height: 200px;
+}
+
+.card{
+       width: 250px;
+       height: 300px;
+       border: #fcfcfc;
+       border: none;
+       box-shadow: 15px 20px 20px rgba(0,0,0,.3)
+inset 4px 4px 10px white;
+border-radius: 20px !important;
+overflow: hidden;
+justify-content: center;
+align-items: center;
+margin: 20px;
 }
